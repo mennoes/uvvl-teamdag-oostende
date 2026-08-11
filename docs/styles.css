@@ -9,7 +9,7 @@ html{scroll-behavior:smooth;scroll-snap-type:y mandatory;background:var(--green)
 body{margin:0;color:var(--green);background:var(--paper);font-family:Oldschool,Arial,sans-serif;overflow-x:hidden}
 button{font:inherit}
 .slide{position:relative;min-height:100svh;padding:clamp(82px,8vw,128px) clamp(28px,6vw,92px) 64px;overflow:hidden;scroll-snap-align:start;isolation:isolate}
-.slide h1,.slide h2{font-family:'Oldschool Condensed',Impact,sans-serif;font-weight:700;letter-spacing:-.045em;line-height:.82;margin:0;text-transform:uppercase}
+.slide h1,.slide h2{font-family:'Oldschool Condensed',Impact,sans-serif;font-weight:700;letter-spacing:-.01em;line-height:.82;margin:0;text-transform:uppercase}
 .slide h1{font-size:clamp(88px,17vw,260px)}
 .slide h2{font-size:clamp(72px,12vw,190px)}
 .eyebrow{font-size:clamp(13px,1.35vw,20px);font-weight:700;letter-spacing:.14em;margin-bottom:clamp(24px,4vw,50px)}
