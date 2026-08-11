@@ -19,3 +19,10 @@
 .metric-card .schedule.vertical{width:100%;gap:12px}
 .metric-card .schedule.vertical span{padding:18px 20px;font:700 clamp(30px,3.25vw,50px)/.95 'Oldschool Condensed';letter-spacing:0}
 .metric-card .schedule.vertical b{font:700 clamp(13px,1.15vw,17px)/1 Oldschool;letter-spacing:.1em;margin-bottom:10px}
+.short-cards{grid-template-columns:repeat(2,1fr);grid-template-rows:repeat(2,1fr);flex:1}
+.short-cards .idea-card{position:relative;min-height:0;padding:clamp(24px,2.6vw,38px)}
+.short-cards .idea-card>span{position:absolute;right:clamp(24px,2.6vw,38px);top:clamp(24px,2.6vw,38px)}
+.short-cards .idea-card em{font:700 13px Oldschool;letter-spacing:.12em;font-style:normal;text-transform:uppercase}
+.short-cards .idea-card h3{max-width:80%;margin:clamp(22px,3vh,38px) 0 12px;font-size:clamp(38px,4.1vw,64px)}
+.short-cards .idea-card p{margin:auto 0 0;font-size:clamp(20px,1.75vw,27px);max-width:85%}
+@media(max-width:850px){.short-cards{grid-template-columns:1fr;grid-template-rows:auto}.short-cards .idea-card h3{max-width:88%}}
