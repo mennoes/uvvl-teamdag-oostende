@@ -68,6 +68,13 @@ button{font:inherit}
 @media(max-width:800px){.slide{padding:88px 24px 54px}.chrome{padding:0 14px}.chrome img{width:135px}.dots{display:none}.hero h1{max-width:100%}.hero-photo{width:52vw;height:38vh;top:auto;bottom:8vh;opacity:.5}.lightning{right:10vw;top:35vh;width:18vw}.big-three,.maybe-grid,.decision-grid{grid-template-columns:1fr;gap:12px}.ticket{min-height:150px}.ticket h3{margin:10px 0}.format-row{grid-template-columns:42px 1fr}.format-row strong{grid-column:2}.maybe-grid article,.decision-grid article{min-height:auto}.collage{display:block;padding-left:24px}.photo-half{width:100%;opacity:.25}.collage-copy{padding-left:0}.cutout{left:auto;right:-15%;height:48%;opacity:.65}.controls{display:none}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.progress span{transition:none}}
 
+.source-cover{color:var(--green)}
+.oostende-collage{position:absolute;inset:0;z-index:-1}.oostende-collage img{width:100%;height:100%;object-fit:cover}
+.source-cover h1{font-size:clamp(100px,18vw,270px);max-width:56%;margin-top:10vh}
+.source-cover .eyebrow{position:relative;z-index:2}
+.source-subtitle{display:flex;gap:9px;flex-wrap:wrap;margin-top:30px;max-width:48%;font-size:clamp(19px,2vw,28px);font-weight:700}
+.source-subtitle span{background:var(--green);color:var(--paper);padding:8px 12px;transform:rotate(-1deg)}.source-subtitle span:nth-child(2){background:var(--purple);color:var(--green);transform:rotate(1deg)}.source-subtitle span:nth-child(3){background:var(--yellow);color:var(--green)}
+
 /* Seizoen 10 inhoud */
 mark{background:var(--yellow);color:var(--green);padding:0 .08em;line-height:.78}
 .purple-bg{background:var(--purple);color:var(--green)}
@@ -90,4 +97,5 @@ mark{background:var(--yellow);color:var(--green);padding:0 .08em;line-height:.78
 .filter-slide h2{font-size:clamp(72px,12vw,170px)}.filter-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:6vh}.filter-grid article{background:var(--paper);padding:24px;min-height:180px}.filter-grid strong{font:700 50px 'Oldschool Condensed';background:var(--green);color:var(--paper);padding:3px 11px}.filter-grid h3{font:700 clamp(30px,3.4vw,52px)/.95 'Oldschool Condensed';text-transform:uppercase;margin:24px 0 0}.filter-slide .quote{margin-top:28px}
 .decision-slide h2{font-size:clamp(68px,11vw,155px)}
 @media(max-width:800px){.number-strip,.dual-plan,.format-triptych,.option-stack,.shorts-list,.wish-grid,.filter-grid{grid-template-columns:1fr}.number-strip{margin-top:3vh}.number-strip article{padding:12px}.split-format h2{max-width:100%}.vooruitblik-visual{position:relative;right:auto;top:auto;width:100%;height:24vh;margin:20px 0}.dual-plan{margin-top:2vh}.timeline{display:none}.date-card{position:relative;right:auto;bottom:auto;width:100%;margin-top:14px}.quick-slide{display:block;padding-left:24px}.quick-photo{width:100%;opacity:.22}.quick-copy{padding-left:0}.four-steps{grid-template-columns:1fr 1fr}.academy-number{position:relative;right:auto;top:auto;display:inline-block;margin-top:24px}.academy-person{opacity:.3;height:50%}.cadence{display:none}.shorts-list article,.wish-grid article,.filter-grid article{min-height:auto}.extras-person{opacity:.4}.wishlist-slide,.shorts-slide,.gap-slide,.split-format{height:auto;min-height:100svh}.wish-grid{padding-bottom:30px}}
+@media(max-width:800px){.source-cover h1{max-width:100%;margin-top:6vh}.source-subtitle{max-width:80%}.oostende-collage img{object-position:58% center}}
 

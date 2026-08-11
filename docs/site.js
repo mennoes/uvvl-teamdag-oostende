@@ -35,7 +35,7 @@ slides.forEach((slide) => observer.observe(slide));
 
 previous.addEventListener('click', () => goTo(active - 1));
 next.addEventListener('click', () => goTo(active + 1));
-document.querySelector('.restart').addEventListener('click', () => goTo(0));
+document.querySelector('.restart')?.addEventListener('click', () => goTo(0));
 window.addEventListener('keydown', (event) => {
   if (['ArrowDown', 'ArrowRight', 'PageDown', ' '].includes(event.key)) { event.preventDefault(); goTo(active + 1); }
   if (['ArrowUp', 'ArrowLeft', 'PageUp'].includes(event.key)) { event.preventDefault(); goTo(active - 1); }
