@@ -31,3 +31,7 @@
 .cover h1{font-size:clamp(110px,14vw,220px)}
 .cover-tags{max-width:48vw;justify-content:flex-start}
 @media(max-width:850px){.cover-copy{width:72%;margin-left:0}.cover-u{left:66%;top:74%;width:clamp(112px,24vw,180px)}.cover-tags{max-width:68vw}}
+.plan .kicker span{background:var(--green);color:var(--paper)}
+.wishlist .kicker span{background:var(--purple);color:var(--green)}
+.rough .kicker span{background:var(--yellow);color:var(--green)}
+.rough .idea-card.question{background:var(--yellow)}
