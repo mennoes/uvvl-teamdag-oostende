@@ -1,10 +1,10 @@
 # Teamdag Oostende — Universiteit van Vlaanderen
 
-Een lichte, scrollbare teampresentatie voor de formatsessie in Oostende.
+Een lichte, scrollbare teampresentatie voor de formatsessie in Oostende. De deck verwerkt de volledige inhoud uit `Lijstje formats aug 2026.pdf`: seizoen 10, de open 15 afleveringen, shorts, longform-wensen en extra ideeën.
 
-## Inhoud aanpassen
+## Inhoud
 
-De live versie staat in `docs/`. De tijdelijke formatnamen staan in `docs/index.html` onder de sectie `zeker`. Vervang daar de drie regels door de echte formats, hun status en de verantwoordelijke.
+De live versie staat in `docs/` en bevat 14 dia's. Alle productieaantallen, planning, vraagtekens en formatideeën zijn overgenomen uit de inhoudelijke presentatie van augustus 2026.
 
 ## Bekijken
 
