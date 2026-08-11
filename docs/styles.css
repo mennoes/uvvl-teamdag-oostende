@@ -10,3 +10,4 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.progress span{transition:none}}
 .cover-u{position:absolute;z-index:3;left:61.4%;top:86.6%;width:clamp(72px,8.5vw,138px);height:auto;transform:translate(-50%,-50%)}
 .cover-tags{gap:clamp(12px,1.4vw,22px);margin-top:12px}.cover-tags span{padding:clamp(14px,1.5vw,22px) clamp(20px,2.2vw,34px);font-size:clamp(25px,2.6vw,42px);line-height:1;font-weight:700;box-shadow:0 2px 16px rgba(0,0,0,.05)}
+.slide-head{display:block}.slide h2{text-align:left;margin-top:16px}
