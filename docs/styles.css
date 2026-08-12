@@ -35,3 +35,4 @@
 .wishlist .kicker span{background:var(--purple);color:var(--green)}
 .rough .kicker span{background:var(--yellow);color:var(--green)}
 .rough .idea-card.question{background:var(--yellow)}
+.fti-metric{align-items:flex-end}.fti-metric strong{white-space:nowrap}.fti-metric strong i{font-style:normal;color:var(--paper)}.fti-metric span{display:flex;flex-direction:column;line-height:.9;padding-bottom:4px}.fti-metric span b{display:none}.fti-metric span small{font:700 .64em Oldschool;text-transform:none;margin-top:6px}
